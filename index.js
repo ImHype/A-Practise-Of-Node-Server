@@ -5,8 +5,15 @@ var query = myfw.query;
 var server = new App();
 server.use(staticServer('./public/'));
 server.use(query);
+server.use(myfw.sessionMid);
+server.get('/index',function(req,res){
+	res.end(req.session.name);
+})
 server.get('/:id/:name',function(req,res,next){
-	console.log(req.query)
+	req.session.name="nihao";
+	console.log(req.session.name)
+	console.log(req.query);
+
 	res.end("index");
 });
 var port = 80;
