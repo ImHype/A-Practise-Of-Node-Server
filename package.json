@@ -1,5 +1,25 @@
 {
-	"scripts":{
+  "name": "node_server",
+ 	"author": {
+ 		"name":"君羽",
+ 	},
+ 	"keywords": [
+    "Node.js",
+    "MVC"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imhype/node_server.git"
+  },
+  "engines": {
+    "node": ">=0.10.x"
+  },
+  "version": "0.0.0",
+  "private": true,
+  "scripts":{
 		"start":"node index"
-	}
+	},
+  "dependencies": {
+    
+  }
 }
