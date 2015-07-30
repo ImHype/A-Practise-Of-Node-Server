@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ### 参照《深入浅出Node.Js》写的一个迷你版Node.js MVC Framework
-=======
-## 参照深入浅出Node.Js写的一个迷你版Node.js MVC Framework
->>>>>>> 96c7d3b297d9fee9b2e045cd8fd66ed64afc5f50
 
 目前拥有的模块有：
 
