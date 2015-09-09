@@ -1,6 +1,6 @@
 # A Light Node.js MVC Framework
 
-> 通过监听URL中HASH值的改变，来更新页面中局部的内容
+> create by junyu
 
 -------------------------
 ## How To Use It .
